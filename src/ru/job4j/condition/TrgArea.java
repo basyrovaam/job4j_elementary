@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {
-        double p = (a + b +c ) / 2;
+        double p = (a + b + c) / 2;
         double rsl1 = p - a;
         double rsl2 = p - b;
         double rsl3 = p - c;
@@ -16,7 +16,7 @@ public class TrgArea {
         double a = 2;
         double b = 2;
         double c = 2;
-        double rsl = TrgArea.area(a,b,c);
+        double rsl = TrgArea.area(a, b, c);
         System.out.println("Площадь треугольника со сторонами (2, 2, 2) = " + rsl);
     }
 }
