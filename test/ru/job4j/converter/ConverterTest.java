@@ -30,17 +30,17 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert160RblThen0Dlr() {
+    public void whenConvert160RblThen2Dlr() {
         int in = 160;
-        int expected = 0;
+        int expected = 2;
         int out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out);
     }
 
     @Test
-    public void whenConvert0RblThen5Dlr() {
+    public void whenConvert0RblThen0Dlr() {
         int in = 0;
-        int expected = 5;
+        int expected = 0;
         int out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out);
     }
