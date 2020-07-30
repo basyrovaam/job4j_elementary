@@ -8,7 +8,6 @@ import org.junit.Test;
 import ru.job4j.calculate.X2;
 import ru.job4j.calculator.Fit;
 
-
 public class PointTest {
 
     @Test
