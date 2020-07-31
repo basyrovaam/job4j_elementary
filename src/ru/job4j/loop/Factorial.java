@@ -1,20 +1,17 @@
 package ru.job4j.loop;
 
 public class Factorial {
-    public static int calc(int start, int finish) {
+    public static int calc(int n) {
         int result = 1;
-        if (start == 0) {
-            start = 1;
-        }
-        for (int index = start; index <= finish; index++) {
+        for (int index = 1; index <= n; index++) {
             result = result * index;
         }
         return result;
     }
 
     public static void main(String[] args) {
-        System.out.println(calc(1, 5));
-        System.out.println(calc(0, 0));
-        System.out.println(calc(1, 1));
+        System.out.println(calc(5));
+        System.out.println(calc(0));
+        System.out.println(calc(1));
     }
 }
