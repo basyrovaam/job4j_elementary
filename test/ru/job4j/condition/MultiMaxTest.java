@@ -22,6 +22,7 @@ public class MultiMaxTest {
         int result = MultiMax.max(3, 5, 6);
         assertThat(result, is(6));
     }
+
     @Test
     public void whenNotMax() {
         int result = MultiMax.max(4, 4, 4);
