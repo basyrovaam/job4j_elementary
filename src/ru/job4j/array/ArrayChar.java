@@ -9,6 +9,6 @@ public class ArrayChar {
                 break;
             }
         }
-        return result;
+         return result;
     }
 }
