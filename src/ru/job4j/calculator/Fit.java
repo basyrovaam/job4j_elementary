@@ -19,7 +19,3 @@ public class Fit {
         System.out.println(woman + " is best weight for woman with height 178");
     }
 }
-
-//Идеальный вес для мужчин = (рост в сантиметрах – 100) · 1,15.
-//
-//Идеальный вес для женщин = (рост в сантиметрах – 110) · 1,15.
